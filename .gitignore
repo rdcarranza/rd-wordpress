@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
@@ -46,3 +47,28 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+=======
+# Ignorar configuración específica del entorno
+#wp-config.php
+
+# Ignorar archivos de respaldo y caché
+*.log
+*.sql
+*.sqlite
+*.tar.gz
+*.zip
+cache/
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos generados por Docker
+docker-compose.override.yml
+.env
+
+# Ignorar plugins y temas específicos (si los gestionas desde GitHub)
+#wp-content/plugins/
+#wp-content/themes/
+wp-content/cache/
+>>>>>>> a44d0d1 (Iniciando el repositorio)

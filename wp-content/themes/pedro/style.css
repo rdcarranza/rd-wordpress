@@ -1,0 +1,58 @@
+/*
+Theme Name: Pedro
+Theme URI: 
+Author: HM Risad
+Author URI: https://profiles.wordpress.org/hmrisad/
+Description: A clean and minimal portfolio theme designed for showcasing creative work. Fully responsive, lightweight, and easy to customize.
+Version: 1.2.4
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: pedro
+Tags: blog, portfolio, full-width-template, flexible-header, custom-colors, custom-header,
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Hide screen reader text (required for WordPress) */
+.screen-reader-text {
+    display: none;
+}
+/* WP Default Classes */
+.wp-caption {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.wp-caption-text {
+    font-size: 14px;
+    color: #777;
+}
+
+.gallery-caption {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.bypostauthor {
+    font-weight: bold;
+}
+
+/* Alignment Classes */
+.alignright {
+    float: right;
+    margin-left: 20px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 20px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
